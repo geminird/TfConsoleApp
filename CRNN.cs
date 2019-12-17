@@ -61,7 +61,6 @@ namespace TfConsoleApp
 
         Tensor conv2d(Tensor inputs, int filters, string padding, bool batchNorm, string name)
         {
-            control_flow_ops.
             var kernel_initializer = tf.variance_scaling_initializer();
             var bias_initializer = tf.constant_initializer(value: 0);
             //Tensor top = null;
